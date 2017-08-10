@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+  touch-action: none;
+}
+
+.item {
+  flex: 1;
+}
+.title{
+  position: absolute;
+  top: 0;
+  line-height: 75px;
+  color: #333333;
+  display: flex;
+  width: 100%;
+  z-index: -1;
+}
+.title p{
+  width: 50%;
+  text-align: center;
+  margin: 0;
+}
+.title span{
+  color: #989898;
+}

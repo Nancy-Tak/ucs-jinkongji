@@ -1,0 +1,50 @@
+.root {
+  padding-bottom: 32px;
+  background: #f7f4ef;
+}
+
+.title {
+  padding: 32px 36px;
+  font-weight: bold;
+  color: #444;
+  border-bottom: 1PX solid #e3e3e3;
+  background: #fff;
+}
+
+.list {
+  display: flex;
+  padding: 32px 0;
+  background: #fff;
+}
+
+.item {
+  width: 25%;
+  text-align: center;
+}
+
+.item:not(:last-of-type) {
+  border-right: 1PX solid #f7c680;
+}
+
+.item-title {
+  font-size: 30px;
+  position: relative;
+}
+
+.count {
+  margin-top: 8px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #f39e27;
+}
+
+.vertical-center {
+  vertical-align: middle;
+}
+
+.icon-question {
+  margin-left: 8px;
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+}

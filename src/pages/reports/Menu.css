@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  align-items: center;
+  padding: 32px 36px;
+  background: #f5ebdf;
+}
+
+.link {
+  display: inline-block;
+  padding: 32px 0;
+  width: 20%;
+  color: #a2a2a2;
+  text-align: center;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.link:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.link:global(.active) {
+  color: #fff;
+  background: #f39e27;
+}
+.link:last-child{
+  padding: 0;
+  height: 108px;
+  line-height: 108px;
+}
+
+.date-picker{
+  display: block;
+}
+.time-box{
+  font-size: 24px;
+  display: block;
+}
